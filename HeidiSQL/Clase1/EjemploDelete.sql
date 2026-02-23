@@ -1,0 +1,1 @@
+DELETE FROM avatar WHERE baneado = True;

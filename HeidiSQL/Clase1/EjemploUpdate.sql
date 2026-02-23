@@ -1,0 +1,1 @@
+UPDATE avatar SET baneado = FALSE WHERE baneado = TRUE;
