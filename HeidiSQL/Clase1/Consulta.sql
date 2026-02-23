@@ -1,4 +1,4 @@
-CREATE DATABASE Videogame;
+-- CREATE Videogame
 USE Videogame;
 CREATE TABLE Avatar (
 	identificador INT AUTO_INCREMENT PRIMARY KEY,

@@ -1,0 +1,16 @@
+CREATE TABLE Personajes (
+	Identificador INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+	Nombre VARCHAR(50),
+	Velocidad SMALLINT UNSIGNED,
+	VidaMaxima TINYINT UNSIGNED,
+	Danyo SMALLINT UNSIGNED
+);
+
+CREATE TABLE Pikmin (
+	Identificador INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+	Danyo SMALLINT UNSIGNED,
+	Peso TINYINT UNSIGNED,
+	Resistencia VARCHAR(50),
+	IdentificadorPersonaje INT UNSIGNED,
+	FOREIGN KEY	(IdentificadorPersonaje) REFERENCES personajes (Identificador)
+); 
