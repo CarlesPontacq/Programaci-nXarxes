@@ -1,0 +1,1 @@
+DELETE pikmin FROM pikmin, personajes WHERE pikmin.IdentificadorPersonaje = personajes.Identificador AND personajes.Nombre = 'Luis';
